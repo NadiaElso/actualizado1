@@ -1,0 +1,54 @@
+body {
+  min-height: 100vh;
+  background: url(src/fondosuper.jpg) no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Libre Bodoni", serif;
+
+  text-transform: capitalize;
+  text-decoration: none;
+}
+header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  background-color: aqua;
+  box-shadow: 0.5px 10px coral;
+  padding: 20px 7px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  z-index: 1000;
+}
+
+header.logo {
+  font-weight: bolder;
+  font-size: 25px;
+  color: blue;
+}
+
+header.navbar ul {
+  list-style: none;
+}
+
+header .navbar ul li {
+  position: relative;
+  float: left;
+}
+
+header .navbar ul li a {
+  font-size: 20px;
+  padding: 20px;
+  color: orange;
+  display: block;
+}
+header .navbar ul li a:hover {
+  background: palevioletred;
+  color: green;
+}

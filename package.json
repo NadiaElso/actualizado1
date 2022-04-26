@@ -1,0 +1,18 @@
+{
+  "name": "vanilla-typescript",
+  "version": "1.0.0",
+  "description": "JavaScript and TypeScript example starter project",
+  "main": "home.html",
+  "scripts": {
+    "start": "parcel home.html --open",
+    "build": "parcel build home.html"
+  },
+  "dependencies": { "parcel-bundler": "^1.6.1" },
+  "devDependencies": {
+    "typescript": "4.4.4"
+  },
+  "resolutions": {
+    "@babel/preset-env": "7.13.8"
+  },
+  "keywords": ["typescript", "javascript"]
+}
